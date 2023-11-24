@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      /* Set the dimensions of your screen */
+      @media (max-width: 480px) {
+        body {
+          width: 320px;
+          height: 480px;
+        }
+      }
+      @media (min-width: 481px) and (max-width: 768px) {
+        body {
+          width: 420px;
+          height: 768px;
+        }
+      }
+      @media (min-width: 769px) and (max-width: 1024px) {
+        body {
+          width: 520px;
+          height: 1024px;
+        }
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        body {
+          width: 620px;
+          height: 1280px;
+        }
+      }
+      /* Add a centered container with a specific size */
+      .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Add content inside the container */
+      .content {
+        text-align: center;
+        font-size: 24px;
+        color: rgb(222, 25, 25);
+        background-color: rgba((246, 31, 31, 0.43).43);
+        padding: 8px;
+        border: 1px solid gray;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container"><div class="content"><h4>留言板</h4></div>
+    
+    <h3>23汽车2班匿名墙</h3>
+    <p style="font-family: 楷体">凡有关班级事务的皆可留言反馈</p>
+    <textarea></textarea>
+    <button style="font-size: large">发布</button>
+    <p style="font-family: 行楷">[方框中输入文字后，点击发布即可]</p>
+    <ul></ul>
+    <script src="script.js"></script>
+    </div></div>
+  </body>
+</html>
